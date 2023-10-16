@@ -16,7 +16,7 @@ import { methods } from "./methods.js"
 dotenv.config()
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 
 app.use(bodyParser.json())
 app.use(cors())
@@ -56,7 +56,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3000",
+        url: "http://localhost:8080",
       },
     ],
   },

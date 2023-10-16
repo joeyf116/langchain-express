@@ -44,9 +44,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 npm run start
 ```
 
-5. Open your browser and navigate to `http://localhost:3000` to see the frontend and test your API.
+5. Open your browser and navigate to `http://localhost:8080` to see the frontend and test your API.
 
-6. Check out the auto-generated API documentation at `http://localhost:3000/api-docs`.
+6. Check out the auto-generated API documentation at `http://localhost:8080/api-docs`.
 
 ## 🛠 Adding New Methods
 
